@@ -113,8 +113,8 @@ function calculateCentroidDistances() {
             L.marker([midLat, midLng], {
                 icon: L.divIcon({
                     className: "distance_label",
-                    html: `<div class="distance-marker" style="transform: rotate(${angle}deg);">Distancia: ${distanceFormatted}km</div>`,
-                    iconSize: [100, 30],
+                    html: `<div class="distance-marker" style="transform: rotate(${angle}deg);">Distancia: ${distanceFormatted} km</div>`,
+                    iconSize: [150, 30],
                     iconAnchor: [50, 15]
                 })
             }).addTo(map);
